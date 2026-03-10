@@ -17,12 +17,12 @@ export default function App() {
               Discover how leading organizations are transforming their businesses with innovative solutions. Explore real-world success stories and measurable results.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.deloitte.com/global/en/what-we-do/case-studies-collection.html" target="_blank" className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition duration-300">
+              <a href="https://www.deloitte.com/global/en/what-we-do/case-studies-collection.html" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition duration-300">
                 Explore All
               </a>
-              <button className="px-8 py-3 border-2 border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition duration-300">
+              <a href="https://www.deloitte.com/global/en/services.html" target="_blank" rel="noopener noreferrer" className="px-8 py-3 border-2 border-white/30 text-white font-bold rounded-lg hover:bg-white/10 transition duration-300">
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>
